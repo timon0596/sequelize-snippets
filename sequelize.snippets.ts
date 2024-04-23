@@ -1,5 +1,5 @@
 
-//find all where the result of connection of two columns is like a given string
+//find all rows where the result of connection of two columns is like a given string and not isarchived and not isdeleted 
 model.findAll({where: {
         [Op.and]: [
         //regular "where" section block 
